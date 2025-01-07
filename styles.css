@@ -115,3 +115,20 @@ footer {
 .paper h3 a:hover {
     text-decoration: underline;
 }
+
+.about-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center; /* Aligns text and image vertically */
+    gap: 20px; /* Space between the text and the image */
+}
+
+.about-text {
+    flex: 1; /* Allows the text to take up available space */
+}
+
+.profile-photo img {
+    max-width: 250px; /* Adjust the size of the photo */
+}
